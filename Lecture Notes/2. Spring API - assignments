@@ -1,0 +1,21 @@
+Assignment!
+
+---------------------------------------------------------------------------------------------------
+Part 1.
+
+Create a person class.
+
+1. Use url parameters to tell your person about yourself and have them respond with info about that subject.
+
+2. Make path variables give you information about your person (they could refer to the variables in the person object).
+
+3. Other fun stuff you want to try out.
+
+Note: Since Spring is a RESTful API and we don't have an associated DB the person can be hardcoded.
+
+---------------------------------------------------------------------------------------------------
+Part 2 (After learning about Postman)
+
+1. POST Text to your person.
+
+2. Have the person "read" it and respond/interact with the text.

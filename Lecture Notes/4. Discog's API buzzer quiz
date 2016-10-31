@@ -1,0 +1,44 @@
+1. Show how to sign up to Discogs and go throug the OAuth process.
+
+2. Call the API.
+Show the search method at the bottom:
+https://www.discogs.com/developers/#page:database,header:database-master-release
+
+---------------------------------------------------------------------------------------------------
+Example keys
+
+Consumer Key 	AFMvZdDmbubyYSOUVQfL
+Consumer Secret 	WoYOwiBzCqsYIDUOekgPQTPEgEMwwtxM
+Request Token URL 	https://api.discogs.com/oauth/request_token
+Authorize URL 	https://www.discogs.com/oauth/authorize
+Access Token URL 	https://api.discogs.com/oauth/access_token
+
+oauth_token_secret=sTsEjXwCSVKSWPDMexnGIMMRIEruqlTgfeHFEBhj&oauth_token=jtLxJBUhyGUhuTZqvcPdJXVOaNQEZVrAulmHHXZj
+
+---------------------------------------------------------------------------------------------------
+
+Buzzer quiz:
+
+https://www.discogs.com/developers/#page:database,header:database-master-release
+GET /artists/{artist_id}
+Q: Artist 2435 is?
+A: Wavelength
+
+
+https://www.discogs.com/developers/#page:user-identity,header:user-identity-identity
+POST /users/{username}
+Q: Get your user profile data
+A: ...
+
+
+https://www.discogs.com/developers/#page:database,header:database-artist-releases
+GET /labels/{label_id}/releases{?page,per_page}
+Q: Search a label by id. Find label id 271
+A: Reinforced Records
+
+Q: What do you think that the method below it does?
+A: Pagination, where the API user is allowed to decide the page and how many items to display per page.
+This is often done at database level so not everything that fulfills the query is read at once.
+
+
+
