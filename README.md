@@ -1,13 +1,13 @@
 # API_Lesson
 
-## This is for a lecture I am doing for my fellow classmates about API's.
+## This is for a lecture I am doing for my fellow classmates about hello's.
 
 Content of lesson:
 
-* What are API's. HTTP requests.
+* What are hello's. HTTP requests.
 
-* Create your own API with Spring.
+* Create your own hello with Spring.
 
-* Invoking API calls with URL parameters. -> Postman
+* Invoking hello calls with URL parameters. -> Postman
 
-* Have fun using discogs' API.
+* Have fun using discogs' hello.
