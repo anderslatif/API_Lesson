@@ -2,10 +2,11 @@ Download Postman (Chrome required).
 
 Keep the Tomcat server running and call your API.
 
-Explain about HTTP verbs.
+Explain about HTTP verbs. Show the Wikipedia article on Restful API's where it
+https://en.wikipedia.org/wiki/Representational_state_transfer#Relationship_between_URL_and_HTTP_methods
 
-Show POST works in Postman.
+Show how POST works in Postman.
+
+Write a POST method in your example.
 
 <----- Exercise II in file 2. Spring API - assignments
-
-What

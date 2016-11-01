@@ -1,9 +1,21 @@
 What is an API?
 
-What is a REST API?
+What is a REST API? (Twitter, Google etc. they all use it)
+    Just like a website. You make a call from client to a server and get data back with the HTTP protocol.
+
+Go to Facebook and replace www with graph.
+Add: ?fields=id,names,likes
+
+Google maps: maps.googleapis.com/maps/api/geocode/json does not work! Why? Missing parameters.
+http://maps.googleapis.com/maps/api/geocode/json?address=Copenhagen
+
+Another interesting example: import.io - turns HTML pages to JSON
 
 http://spring.io/guides/tutorials/bookmarks/
 
+---------------------------------------------------------------------------------------------------
+Start Coding:
+
 Url parameters /  Path variables
 
-Get JSON (objects) in browser.
+Get Objects (JSON) in browser.

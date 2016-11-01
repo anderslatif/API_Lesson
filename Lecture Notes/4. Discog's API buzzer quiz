@@ -1,11 +1,11 @@
-1. Show how to sign up to Discogs and go throug the OAuth process.
+1. Show how to sign up to Discogs and go through the OAuth 1.0a process.
 
 2. Call the API.
 Show the search method at the bottom:
 https://www.discogs.com/developers/#page:database,header:database-master-release
 
 ---------------------------------------------------------------------------------------------------
-Example keys
+Example keys (They do not work)
 
 Consumer Key 	AFMvZdDmbubyYSOUVQfL
 Consumer Secret 	WoYOwiBzCqsYIDUOekgPQTPEgEMwwtxM
