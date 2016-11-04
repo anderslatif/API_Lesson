@@ -4,6 +4,7 @@ package API;
 import org.springframework.web.bind.annotation.*;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
+import static org.springframework.web.bind.annotation.RequestMethod.POST;
 
 @RestController
 public class GreetingController {
@@ -30,25 +31,12 @@ public class GreetingController {
     }
 
 
-    @RequestMapping(value = "/getJSONPerson", method = GET)
-    public JSONPerson getJSONPerson() {
-        JSONPerson jsonPerson = new JSONPerson("Anders Latif", 28, "mentiroso");
-        return jsonPerson;
+    @RequestMapping(value = "/getBody", method = POST)
+    public String showBody(@RequestBody String body) {
+        System.out.println(body);
+        return "You said: " + body;
     }
 
 
-
-    static class JSONPerson {
-
-        String name;
-        int age;
-        String catchPhrase;
-
-        JSONPerson(String name, int age, String catchPhrase) {
-            this.name = name;
-            this.age = age;
-            this.catchPhrase = catchPhrase;
-        }
-    }
 
 }

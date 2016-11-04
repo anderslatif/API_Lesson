@@ -13,6 +13,9 @@ Create a person class.
 
 Note: Since Spring is a RESTful API and we don't have an associated DB the person can be hardcoded.
 
+Alternatively try to create a calculator API.
+The path variable could be what operation to perform and two URL parameters could be the two operators.
+
 ---------------------------------------------------------------------------------------------------
 Part 2 (After learning about Postman)
 
